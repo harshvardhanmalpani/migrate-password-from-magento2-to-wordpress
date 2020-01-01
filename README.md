@@ -1,4 +1,4 @@
-# migrate-password-from-magento2-to-wordpress
+# Migrate Customer Password from Magento2 to Wordpress
 This wordpress plugin checks and updates passwords of users migrated from Magento2 to Wordpress
 
 
@@ -13,5 +13,5 @@ This wordpress plugin checks and updates passwords of users migrated from Magent
 ### What is does?
 
 For new wordpress based users which dont have anything to do with magento2, it doesnt do anything
-For all migrated users (those have the key "migrated_cs"), this plugin checks if input password matches old password from magento2 or not, if matched, it clears the key migrated_cs and updates the password using wordpress' algorithm
-else results false.
+
+For all migrated users (those have the key "migrated_cs"), this plugin checks if input password matches old password from magento2 or not, if matched, it clears the key migrated_cs and updates the password using wordpress' algorithm ; else results false.
